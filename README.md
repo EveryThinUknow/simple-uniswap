@@ -1,7 +1,7 @@
 # 2 Tokens——swap in a simple uniswap
 
 ## Frontend app
-dir: dapp/defi-project-frontend
+dir: dapp/frontend
 
 ### How to use
 npm install
@@ -10,6 +10,6 @@ npm run dev
 
 ### If want to change token address, and pool address. 
 
-In dapp\defi-project\frontend\components\swapbox\SwapBox.jsx
+In dapp\frontend\components\swapbox\SwapBox.jsx
 
 Change initalBalance and initalLPpools parameters accourdingly. 
