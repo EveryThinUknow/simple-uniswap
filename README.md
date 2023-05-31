@@ -1,5 +1,4 @@
-# Defi-Project
-COMP5568 defi
+# 2 Tokens——swap in a simple uniswap
 
 ## Frontend app
 dir: dapp/defi-project-frontend
