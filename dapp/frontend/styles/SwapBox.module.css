@@ -1,0 +1,111 @@
+/* SwapBox.css */
+.swapbox {
+    background-color: #f9fafb;
+    color: #0d0d0d;
+    border: 1px solid #d8d9db;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  
+  .swapinput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .swapinput label {
+    margin-right: 8px;
+  }
+
+  .poolSelect{
+    appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #dae1e9;
+    border-radius: 8px;
+    color: #0d0d0d;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 40px 8px 12px;
+    width: 60%;
+    outline: none;
+  }
+  
+  .swapinput input {
+    border: 1px solid #d8d9db;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 8px;
+    flex-grow: 1;
+  }
+  
+  .tokensymbol {
+    font-weight: bold;
+    color: #1c1e1f;
+  }
+  
+  .swaparrow {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d8d9db;
+    margin-bottom: 16px;
+  }
+  
+  .swapbutton {
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .swapbutton:hover {
+    background-color: #2c387e;
+  }
+  .swapfee {
+    background-color: #50656d;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+
+  .tokenDropdown {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+  }
+  
+  .tokenSelect {
+    appearance: none;
+    background-color: #ffffff;
+    border: 1px solid #dae1e9;
+    border-radius: 8px;
+    color: #0d0d0d;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 40px 8px 12px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .tokenDropdown::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    width: 0;
+    height: 0;
+    margin-top: -2px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #0d0d0d;
+    pointer-events: none;
+  }
